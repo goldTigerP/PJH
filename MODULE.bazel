@@ -1,0 +1,12 @@
+module(
+    name = "pjh",
+    version = "1.0",
+)
+
+local_path_override(
+    module_name = "googletest",
+    path = "../googletest",
+)
+
+
+# bazel_dep(name = "googletest", version = "1.15.2")

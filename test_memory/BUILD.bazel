@@ -1,0 +1,8 @@
+cc_test(
+    name = "test_memory",
+    srcs = ["test_memory.cpp"],
+    deps = [
+        "@googletest//:gtest",
+        "@googletest//:gtest_main",
+    ],
+)
